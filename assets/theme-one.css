@@ -1,0 +1,41 @@
+.datepickerBorder {
+	border: 10px dotted red;
+}
+.ui-widget.ui-widget-content{
+	/*border:none !important;*/
+}
+
+table.ui-datepicker-calendar{
+	/*	border:none !important;*/
+}
+
+span.ui-state-default{
+	/*	border:none !important;*/
+}
+
+.pbd_front_booked a{
+	/*background: red !important;*/
+}
+
+.pbd-na-text-box{
+	padding: 10px;
+	margin: 10px;
+	width: 1%;
+	float: left;
+	height: 1%;
+}
+
+.pbd-na-text{
+	padding: 5px;
+}
+
+.pbd-book-form{
+	display: none;
+}
+
+input#pbd_front_btn {
+	margin: 5px;
+}
+.ui-state-disabled{
+	opacity: 1 !important;
+}

@@ -1,0 +1,237 @@
+.pac-front-calendar .ui-datepicker{
+	width: 445px;
+	max-width: 100%;
+}
+.pac-front-calendar .ui-widget.ui-widget-content{
+	padding: 0px;
+	border:0px;
+	-webkit-box-shadow: 0 5px 15px -5px rgba(0,0,0,0.5);
+	box-shadow: 0 5px 15px -5px rgba(0,0,0,0.5);
+	background: #f3f3f3;
+}
+.pac-front-calendar .ui-datepicker .ui-datepicker-header{
+	padding: 30px 20px;
+	background: transparent;
+	border: 0px;
+	border-radius: 0px;
+}
+.pac-front-calendar .ui-datepicker .ui-datepicker-prev,.pac-front-calendar .ui-datepicker .ui-datepicker-next{
+	box-shadow: none !important;
+	border-radius: 0px;
+	background: transparent !important;
+	border: 0px !important;
+	cursor: pointer;
+}
+.pac-front-calendar .ui-datepicker .ui-datepicker-prev{
+	top: 30px;
+	left: 20px;
+}
+.pac-front-calendar .ui-datepicker .ui-datepicker-next{
+	top: 30px;
+	right: 20px;
+}
+.pac-front-calendar table.ui-datepicker-calendar{
+	border:none !important;
+	margin-bottom: 0px;
+}
+.pac-front-calendar table.ui-datepicker-calendar thead{
+	background: #f18664;
+}
+.pac-front-calendar table.ui-datepicker-calendar thead th{
+	padding-top: 22px;
+	padding-bottom: 22px;
+}
+.pac-front-calendar .ui-datepicker th{
+	color: #ffffff;
+}
+.pac-front-calendar .ui-datepicker-calendar tr td{
+	width: 14.285714285714286%;
+	background: transparent;
+	color: #343434;
+	border: 0px;
+	padding: 10px;
+	text-align: center;
+}
+.pac-front-calendar .ui-datepicker-calendar tr td a,.pac-front-calendar .ui-datepicker-calendar tr td span{
+	border: 0 !important;
+	color: #343434;
+	background: transparent;
+	line-height: 40px;
+	text-align: center;
+	box-shadow: none;
+	font-weight: bold;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	border-radius: 50%;
+	margin: 0px auto;
+	padding: 0;
+}
+.pac-front-calendar .ui-state-hover, .pac-front-calendar .ui-widget-content .ui-state-hover, .pac-front-calendar .ui-widget-header .ui-state-hover, .pac-front-calendar .ui-state-focus, .pac-front-calendar .ui-widget-content .ui-state-focus, .pac-front-calendar .ui-widget-header .ui-state-focus, .pac-front-calendar .ui-button:hover, .pac-front-calendar .ui-button:focus{
+	background: #f18664;
+	color: #ffffff;
+}
+.pac-front-calendar .pac_front_booked a.ui-state-default,.pac-front-calendar .pac_front_booked a.ui-state-default, .pac-front-calendar .pac_front_booked .ui-state-default.ui-state-active{
+	background: #f18664;
+	color: #fff;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	border-radius: 50%;
+	padding: 0px;
+	margin: 0px auto;
+}
+.pac-front-calendar .pac_front_booked{
+	opacity: 1;
+}
+.pac-front-calendar .ui-datepicker-calendar tr td a.ui-state-active{
+	color: #f18664;
+	background: transparent;
+	border-radius: 0px;
+	border-bottom: 1px dashed #f18664 !important;
+}
+.pac-front-calendar .ui-datepicker select.ui-datepicker-month, .pac-front-calendar .ui-datepicker select.ui-datepicker-year{
+	width: auto;
+	border: 0px;
+	-webkit-appearance: none;
+	-moz-appearance:    none;
+	appearance:         none;
+	height: 20px;
+	padding: 0px 5px;
+	outline: 0;
+	background: transparent;
+	cursor: pointer;
+	line-height: 1.4;
+}
+.pac-front-calendar .ui-datepicker select.ui-datepicker-year{
+	width: auto;
+}
+.pac-front-calendar .ui-datepicker select.ui-datepicker-month::-ms-expand , .pac-front-calendar .ui-datepicker select.ui-datepicker-year::-ms-expand {
+	display: none;
+}
+span.ui-state-default{
+	border:none !important;
+}
+.pac_front_booked a{
+	/*background: red !important;*/
+}
+.pac-na-text-box{
+	padding: 10px;
+	margin: 10px;
+	width: 1%;
+	float: left;
+	height: 1%;
+}
+.pac-na-text{
+	padding: 5px;
+}
+.pac-book-form, .pac-book-form-widget{
+	display: none;
+}
+input#pac_front_btn {
+	margin: 5px;
+	background: #f18664;
+	margin-top: 10px;
+}
+.ui-state-disabled{
+	/*opacity: 1 !important;*/
+}
+.pac_dialog label{
+	color: #797979;
+	font-size: 14px;
+	line-height: 15px;
+	display: block;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+.pac_dialog .ui-dialog-content{
+	padding: 30px 15px;
+}
+.pac_dialog form.pac_front_form input[type="text"],.pac_dialog form.pac_front_form textarea{
+	display: block;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 15px;
+	border: 1px solid #e1e1e1;
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	background: #ffffff;
+	margin-bottom: 25px;
+}
+.pac_dialog form.pac_front_form input[type="text"]:focus,.pac_dialog form.pac_front_form textarea:focus{
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border: 1px solid #ccc;
+}
+.pac_dialog form.pac_front_form input[type="submit"]{
+	outline: 0px !important;
+	width: 100%;
+	text-align: center;
+	text-transform: capitalize;
+}
+.pac_dialog form.pac_front_form input[type="submit"]:hover{
+	background: #f18664;
+}
+.pac-na-text-box{
+	background: #f18664;
+	margin-top: 15px;
+}
+.pac-na-text{
+	margin-top: 10px;
+	padding: 0px;
+}
+.pac-front-calendar .ui-widget-header .ui-icon {
+	background-image: url(images/themethree-arrowright.png);
+	background-position: 0 0;
+	width: 32px;
+	height: 32px;
+	left: 0px;
+	top: 0px;
+	margin: 0px;
+}
+.pac-front-calendar .ui-icon-circle-triangle-w{
+	-ms-transform: rotate(-180deg); /* IE 9 */
+	-webkit-transform: rotate(-180deg); /* Chrome, Safari, Opera */
+	transform: rotate(-180deg);
+}
+.pac_dialog{
+	box-shadow: 0 1px 15px -2px #000000;
+	background: #f3f3f3;
+}
+.ui-widget-header{
+	background: #f18664;
+}
+
+.pac-front-calendar .pac-front-widget-calendar .ui-datepicker-calendar tr td{
+    padding: 1px;
+}
+.pac-front-calendar .pac-front-widget-calendar .ui-datepicker-calendar tr td a,.pac-front-calendar .pac-front-widget-calendar .pac_front_booked .ui-state-default.ui-state-active,.pac-front-calendar .pac-front-widget-calendar .ui-datepicker-calendar tr td span{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+.pac_error {
+    border: 1px solid #c73838 !important;
+    background-color: rgba(248, 169, 169, 0.1) !important;
+}
+
+@media(max-width:480px){
+    .pac-front-calendar .ui-datepicker-calendar tr td{
+        padding: 1px;
+    }
+    .pac-front-calendar .ui-datepicker-calendar tr td a.ui-state-default,.pac-front-calendar .pac_front_booked .ui-state-default.ui-state-active,.pac-front-calendar .ui-datepicker-calendar tr td span{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,254 @@
+/**
+ * pac main style file
+ *
+ */
+ 
+ ul.tabs{
+ 	margin: 0px;
+ 	padding: 0px;
+ 	list-style: none;
+ 	background: #9ca1a6;
+ }
+ ul.tabs li{
+ 	background: none;
+ 	color: #fff;
+ 	display: inline-block;
+ 	padding: 10px 15px;
+ 	cursor: pointer;
+ 	margin-top: 0px;
+ 	margin-bottom: 0px;
+ }
+
+ ul.tabs li.current{
+ 	background: #0073aa;
+ 	color: #fff;
+ }
+
+ .tab-content{
+ 	display: none;
+ 	background: #fff;
+ 	padding: 15px;
+ }
+
+ .tab-content.current{
+ 	display: inherit;
+ }
+
+ .pac-main-wrapper {
+ 	width: 80%;
+ }
+
+ .pac-main-title{
+ 	margin-top:10px;
+ 	padding: 20px;
+ 	background-color: #0073aa;
+ 	border-top-left-radius: 5px;
+ 	border-top-right-radius: 5px;
+ 	color: #fff;
+ 	font-size: x-large;
+ }
+
+ .pac-main-container{
+
+ }
+
+ .pac-calendar{
+ 	position:relative;
+ }
+
+ #pac_loader{
+ 	display: none;
+ 	position:fixed;
+ 	top: 0px;
+ 	left: 0px;
+ 	right:0px;
+ 	bottom:0px;
+ 	text-align:center;
+ 	z-index: 999;
+ }
+ #pac_loader img{
+ 	position:absolute;
+ 	top:50%;
+ 	left:50%;
+ 	transform:translate(-50%,-50%);
+ }
+
+ .pac-basic-setting{
+ 	float: none;
+ 	background-color: #fff;
+ }
+
+ .pac-basic-setting h2{
+ 	text-align: left;
+ }
+
+ .pac-basic-list{
+ 	border-top: 1px solid;
+ 	border-right: 1px solid;
+ }
+
+ .pac-basic-setting ul li{
+ 	list-style: none;
+ 	margin-left: 10px;
+ }
+
+ .pac-form-setting{
+ 	float: none;
+ 	width: 70%;
+ 	background-color: #fff;
+ }
+
+ .pac-form-setting h2{
+ 	text-align: left;
+ }
+
+ .pac-form-list{
+ 	border-top: 1px dashed #ccc;
+ }
+
+ form.site-list.pac-form-list ul li{
+ 	background: #b4b9be;
+ 	border-radius: 5px;
+ 	padding: 10px;
+ 	color: #555;
+ 	font-size: medium;
+ 	cursor: move;
+ }
+
+ form.site-list.pac-form-list ul li img{
+ 	float: left;
+ 	margin-top: 6px;
+ 	height: 16px;
+ }
+
+ form.site-list input[type=checkbox] {
+ 	float: right;
+ 	margin-top: 5px;
+ }	
+
+ .site-list i{
+ 	float: left;
+ 	margin: 5px;
+ }
+
+ i.fa.fa-arrows {
+ 	float: right;
+ }
+
+ .pac-form-setting ul{
+ 	overflow: hidden;
+ }
+
+ .pac-form-setting ul li{
+ 	list-style: none;
+ 	margin-left: 10px;
+ 	width: 45%;
+ 	float: left;
+ }
+
+ .pac-form{
+ 	width: 120px;
+ 	display: inline-block;
+ 	margin: 5px;
+ 	vertical-align: middle;
+ }
+
+ textarea.pac-form {
+ 	height: 200px;
+ 	width: 50%;
+ }
+
+ .pac-text{
+ 	width: 50%;
+ }
+ 
+ input.button-primary.pac-form {
+ 	margin-top: 10px;
+ 	width: 100px;
+ 	height: 40px;
+ 	margin-left: 12px;
+ }
+
+ .pac-list{
+ 	margin: 10px;
+ }
+
+ .pac-list label{
+ 	padding: 10px;
+ }
+
+ .pac-theme-list {
+ 	margin-left: 80px;
+ }
+
+ .pac-list input[type="radio"] {
+ 	margin: 10px;
+ }
+
+ 
+/**
+ * calendar css
+ */
+
+ .ui-datepicker-inline.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all.ui-datepicker-multi-12.ui-datepicker-multi {
+ 	width: 100% !important;
+ }
+
+ .ui-datepicker-group{
+ 	width: 45%;
+ 	padding: 5px;
+ 	margin: 10px;
+ }
+
+ .ui-datepicker td a {
+ 	margin: 5px;
+ 	line-height: 32px;
+ 	text-align: center !important;
+ }
+
+ .ui-datepicker-header{
+ 	height: 30px;
+ }
+
+ .ui-datepicker-title{
+ 	line-height: 30px !important;
+
+ }
+
+ td.pac_booked_date a {
+ 	background: red !important;
+ 	color: #fff !important;
+ }
+
+ .pac-search-user {
+ 	margin-bottom: 10px;
+ }
+
+ .pac-about h4{
+ 	margin: 5px;
+ 	padding: 10px;
+ 	font-size: 15;
+ }
+
+ .pac-about ul{
+ 	list-style: square;
+ 	margin: 15px;
+ 	padding: 10px;
+ }
+
+ .pac-ins-sc{
+
+ }
+ 
+ td.ui-datepicker-unselectable.ui-state-disabled {
+ 	margin: 5px; 
+ 	line-height: 32px;
+ 	padding: 5px;
+ }
+
+ .ui-state-default{
+ 	text-align: center !important;
+ }
+ .pac-calendar .ui-datepicker-group:nth-child(2n+1){
+ 	clear: both;
+ }
